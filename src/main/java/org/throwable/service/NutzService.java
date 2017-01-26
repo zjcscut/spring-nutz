@@ -15,6 +15,7 @@ public class NutzService {
 	@Autowired
 	private SpringService springService;
 
+	@Aop({"sysTransactionInterceptor"})
 	public String nutzHello(){
 		return "hello,this is nutz service!" + springService.nutzTrans2();
 	}
