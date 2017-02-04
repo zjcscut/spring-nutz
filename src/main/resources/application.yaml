@@ -1,0 +1,7 @@
+server:
+  port: 9090
+druid:
+  url: jdbc:mysql://localhost:3306/nutz
+  username: root
+  password: root
+  driverClassName: com.mysql.jdbc.Driver

@@ -1,0 +1,33 @@
+{
+  "groups": [
+    {
+      "name": "druid",
+      "type": "org.throwable.config.prop.DruidConfigProperties",
+      "sourceType": "org.throwable.config.prop.DruidConfigProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "druid.url",
+      "type": "java.lang.String",
+      "sourceType": "org.throwable.config.prop.DruidConfigProperties"
+    },
+    {
+      "name": "druid.username",
+      "type": "java.lang.String",
+      "sourceType": "org.throwable.config.prop.DruidConfigProperties"
+    },
+    {
+      "name": "druid.password",
+      "type": "java.lang.String",
+      "sourceType": "org.throwable.config.prop.DruidConfigProperties"
+    },
+    {
+      "name": "druid.driverClassName",
+      "type": "java.lang.String",
+      "sourceType": "org.throwable.config.prop.DruidConfigProperties"
+    }
+  ],
+  "hints": [
+  ]
+}

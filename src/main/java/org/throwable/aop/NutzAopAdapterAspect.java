@@ -46,7 +46,7 @@ public class NutzAopAdapterAspect {
                 return joinPoint.proceed();
             } else {
                 for (String name : value) {
-                    Object executeBean = applicationContext.getBean(name);
+                    Object executeBean = applicationContext.getBean(name);  //根据aop的string数组循环获取bean,然后调用execute方法
                     if (null != executeBean) {
                         Class<?> executeBeanClass = executeBean.getClass();
                         Method method = executeBeanClass.getMethod("execute", ProceedingJoinPoint.class);
